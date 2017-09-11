@@ -12,3 +12,12 @@
 * Install `Nmap` and `ncat`(https://nmap.org/dist/nmap-7.30-setup.exe).
 
 ====================================
+
+### Exercise: Running your first web server
+* The Python http.server module can run a built-in web server on your computer.
+Open up a terminal; `cd` to a directory that has some files in it — maybe a directory containing some text files, HTML files, or images — then run `python3 -m http.server 8000` in your terminal.
+
+```python
+C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python -m http.server 8000
+```
+* Now try accessing http://localhost:8000/ from your browser.
