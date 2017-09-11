@@ -21,3 +21,13 @@ Open up a terminal; `cd` to a directory that has some files in it — maybe a di
 C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python -m http.server 8000
 ```
 * Now try accessing http://localhost:8000/ from your browser.
+* In the terminal, you can use the `host` or `nslookup` program to look up hostnames in DNS. 
+`nslookup www.google.com`
+
+### Exercise: Send a request by hand
+* While running web server, on a terminal use `ncat 127.0.0.1 8000` to connect your terminal to the demo server.
+Then type these two lines:
+```
+GET / HTTP/1.1
+Host: localhost
+```
