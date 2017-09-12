@@ -31,3 +31,7 @@ Then type these two lines:
 GET / HTTP/1.1
 Host: localhost
 ```
+## Servers and handlers
+
+### Exercise: The hello server
+* Enter the current subdirectory with `cd Lesson-2/0_HelloServer` and then run `python3 HelloServer.py` in your terminal or in this perticular instance as `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python HelloServer.py`
