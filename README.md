@@ -35,3 +35,6 @@ Host: localhost
 
 ### Exercise: The hello server
 * Enter the current subdirectory with `cd Lesson-2/0_HelloServer` and then run `python3 HelloServer.py` in your terminal or in this perticular instance as `C:/Users/Christiaan/AppData/Local/Programs/Python/Python36-32/python HelloServer.py`
+
+### Exercise: Messageboard, part one and two
+* refer to the project inside directory `Lesson-2`.
